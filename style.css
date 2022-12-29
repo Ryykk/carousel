@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url(/img/bgofdyear.png);
+  background-image: url(/img/bgnew.png);
   background-repeat: round;
   margin: 0;
 }
@@ -80,6 +80,7 @@ body{
 
 /* ALL PAGES */
 .page{
+  border: 2px solid red;
   padding: 5px;
   width: 100%;
   height: 100vh;
@@ -139,3 +140,42 @@ div{
   width: 100%;
   height: 100%;
 }
+
+/* THIRD PAGE */
+.page3{
+  display: flex;
+  flex-direction: row;
+}
+
+.item-pg3{
+  width: 100%;
+}
+
+#item_e{
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+.pg1{
+  width: 95%;
+  height: 350px;
+  padding: 0 0 15px 15px;
+}
+
+#comleo{
+  padding: 0px 0px 20px 30px;
+  font-size: 30px;
+}
+
+.pg2, .pg3{
+  width: 100%;
+  padding: 90px 20px 0px 0px ;
+}
+
+#cnt{
+  margin-top: 50px;
+  padding: 0px 15px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
