@@ -80,7 +80,7 @@ body{
 
 /* ALL PAGES */
 .page{
-  border: 3px solid white;
+  /* border: 3px solid white; */
   padding: 5px;
   width: 100%;
   height: 100vh;
@@ -203,4 +203,34 @@ div{
 
 .pg4-txt{
   font-size: 14px;
+}
+
+/* FIFTH PAGE */
+.page5{
+  display: flex;
+  flex-direction: row;
+}
+
+.item-pg5{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.a-item{
+  margin-top: 40%;
+  padding:0 10px 0 10px;
+  font-size: 15px;
+}
+
+.item5-img{
+  width: 400px;
+  height: 400px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+#txt-item5{
+  font-size: 12px;
+  line-height: 1.5;
 }
