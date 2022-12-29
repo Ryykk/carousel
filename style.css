@@ -8,15 +8,12 @@
 body {
   background: url(/img/562657.jpg);
   margin: 0;
-  padding: 10px;
 }
 
 .carousel {
-  border: 2px solid white;
   width: 100%;
   height: 70vh;
   position: relative;
-  margin-bottom: 25px;
 }
 
 .carousel > ul {
@@ -80,13 +77,18 @@ body {
   right: 1rem;
 }
 
+
+/* ALL PAGES */
+.page{
+  padding: 5px;
+  width: 100%;
+  height: 100vh;
+  border: 2px solid red;
+}
+
 /* FIRST PAGE */
 .upper{
   height: 38%;
-}
-
-.lower{
-  height: 62%;
 }
 
 div{
@@ -112,6 +114,26 @@ div{
 }
 
 /* SECOND PAGE */
+.page2{
+  display: flex;
+  flex-direction: row;
+}
+
+.item-pg2{
+  width: 33.33333%;
+}
+
+.title{
+  padding: 120px 0 0 25px;
+  font-size: 50px;
+}
+
+.span_text{
+  align-self: center;
+  line-height: 1.5;
+}
+
 #zyra{
   width: 100%;
+  height: 100%;
 }
